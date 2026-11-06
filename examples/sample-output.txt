@@ -1,0 +1,13 @@
+--- check the clean files ---
+OK — 4 file(s) checked, all names follow lowercase kebab-case.
+--- check the files with bad names ---
+FAIL examples/bad-files/-leading.txt: starts with a hyphen
+FAIL examples/bad-files/My File.txt: uppercase letter
+FAIL examples/bad-files/My File.txt: space in name
+FAIL examples/bad-files/UPPERCASE.md: uppercase letter
+FAIL examples/bad-files/double--hyphen.txt: double hyphen
+FAIL examples/bad-files/my_file.txt: underscore in name
+FAIL examples/bad-files/photo.JPG: uppercase extension
+FAIL examples/bad-files/trailing-.txt: ends with a hyphen
+FAIL examples/bad-files/weird@name.txt: bad character '@'
+Checked 8 file(s), 9 problem(s) in 8 file(s).
